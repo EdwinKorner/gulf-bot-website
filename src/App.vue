@@ -42,7 +42,7 @@ export default {
           scrollFunction: "maoScroll",
           title: "Med Andra Ord",
           icon: "fa-solid fa-hourglass-end",
-          text: "/MAO"
+          text: "/mao"
         },
         {
           scrollFunction: "ubScroll",
