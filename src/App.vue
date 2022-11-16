@@ -77,36 +77,64 @@ export default {
       ],
       infoPropsArray: [
         {
+          cmdTitle1: "/play",
+          cmdText1: "skriv antingen in sökord eller en url. Om du använder sökord så söker botten på youtube och spelar topresultatet, om du använder url spelas låten som url:en tillhör (kan vara både youtube och soundcloud)",
+          cmdTitle2: "/pause",
+          cmdText2: "pausar låten som spelas",
+          cmdTitle3: "/skip",
+          cmdText3: "skippar låten som spelas",
+          cmdTitle4: "/queue",
+          cmdText4: "visar alla låtar som ligger i kön",
+          cmdTitle5: "/clear",
+          cmdText5: "tömmer kön",
+          cmdTitle6: "/resume",
+          cmdText6: "startar musiken om den är pausad",
           icon: "fa-solid fa-music",
           title: "Musik",
           id:"music"
         },
         {
+          cmdTitle1: "/mao",
+          cmdText1: "Du får ett dm med 20 ord och en timer på 2 minuter sätts igång. Reglerna kan du redan hoppas jag",
           icon: "fa-solid fa-hourglass-end",
           title: "Med andra ord",
           id: "mao"
         },
         {
+          cmdTitle1: "/ub",
+          cmdText1: "Botten skickar ett meddelande med en slumpmässig runepage, champion, ability och items",
           icon: "fa-solid fa-wheelchair-move",
           title: "Ultimate Bravery",
           id:"ub"
         },
         {
+          cmdTitle1: "/roll",
+          cmdText1: "Du skriver in ett nummer och får ett slumpmässigt nummer mellan 0 och ditt valda nummer",
           icon: "fa-solid fa-dice",
           title: "Roll",
           id:"roll"
         },
         {
+          cmdTitle1: "/mq",
+          cmdText1: "Botten spelar en låt i 5 sekunder, du har 20 sekunder på dig att gissa artist och låt. När du har gissat rätt på båda eller tiden går ut så visas svaren och du får starta en ny runda med samma command",
           icon: "fa-solid fa-volume-high",
           title: "Musik Quiz",
           id:"mq"
         },
         {
+          cmdTitle1: "/8ball",
+          cmdText1: "Du får svar på en ja/nej fråga",
           icon: "fa-solid fa-bowling-ball",
           title: "8ball",
           id:"8ball"
         },
         {
+          cmdTitle1: "/timer",
+          cmdText1: "En timer med din valda tid sätts igång",
+          cmdTitle2: "/exit",
+          cmdTitle3: "/restart",
+          cmdText3: "Botten startas om (kan bara utföras av Körner)",
+          cmdText2: "Botten lämnar vc",
           icon: "fa-solid fa-robot",
           title: "Övriga funktioner",
           id:"other"

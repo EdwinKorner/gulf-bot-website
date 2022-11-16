@@ -7,12 +7,19 @@
                 <div class="p-8 text-center">
                     <h2 class="text-3xl font-bold">{{informationProperties.title}}</h2>
                 </div>
-            <div id="commands">
-                <informationCommands
-                v-for="informationCommands in infoCommandsArray"
-                v-bind:key="informationCommands.cmdTitle"
-                :informationCommands = informationCommands
-                />
+            <div style="width: 730px;" id="commands">
+                <h2 class="text-xl font-bold">{{informationProperties.cmdTitle1}}</h2>
+                <p class="mb-8">{{informationProperties.cmdText1}}</p>
+                <h2 class="text-xl font-bold">{{informationProperties.cmdTitle2}}</h2>
+                <p class="mb-8">{{informationProperties.cmdText2}}</p>
+                <h2 class="text-xl font-bold">{{informationProperties.cmdTitle3}}</h2>
+                <p class="mb-8">{{informationProperties.cmdText3}}</p>
+                <h2 class="text-xl font-bold">{{informationProperties.cmdTitle4}}</h2>
+                <p class="mb-8">{{informationProperties.cmdText4}}</p>
+                <h2 class="text-xl font-bold">{{informationProperties.cmdTitle5}}</h2>
+                <p class="mb-8">{{informationProperties.cmdText5}}</p>
+                <h2 class="text-xl font-bold">{{informationProperties.cmdTitle6}}</h2>
+                <p class="mb-8">{{informationProperties.cmdText6}}</p>
             </div>
         </div>
     </div>
@@ -20,11 +27,11 @@
   
   <script>
   
-  import informationCommands from './informationCommands.vue'
+
   export default {
     name: 'info-component',
     components: {
-        informationCommands
+        
     },
     props: {
       informationProperties: Object,
@@ -32,33 +39,6 @@
     data() {
         return{
             infoProps: this.informationProperties,
-
-            infoCommandsArray: [
-                {
-                    cmdTitle: "/play",
-                    cmdText: "söker efter sökord eller url från youtube/soundcloud"
-                },
-                {
-                    cmdTitle: "/pause",
-                    cmdText: "pausar låten som spelas just nu"
-                },
-                {
-                    cmdTitle: "/skip",
-                    cmdText: "skippar låten som spelas just nu"
-                },
-                {
-                    cmdTitle: "/queue",
-                    cmdText: "visar alla låtar som ligger i kön"
-                },
-                {
-                    cmdTitle: "/clear",
-                    cmdText: "tömmer kön"
-                },
-                {
-                    cmdTitle: "/resume",
-                    cmdText: "startar musiken om den är pausad"
-                },
-            ]
         }
     }
   }
