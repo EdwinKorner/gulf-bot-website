@@ -95,7 +95,7 @@ export default {
         },
         {
           cmdTitle1: "/mao",
-          cmdText1: "Du får ett dm med 20 ord och en timer på 2 minuter sätts igång. Reglerna kan du redan hoppas jag",
+          cmdText1: "Du får ett dm med 20 ord och en timer på 45 sekunder sätts igång. Reglerna kan du redan hoppas jag",
           icon: "fa-solid fa-hourglass-end",
           title: "Med andra ord",
           id: "mao"
