@@ -72,7 +72,7 @@ export default {
           scrollFunction: "otherScroll",
           title: "Övriga funktioner",
           icon: "fa-solid fa-robot",
-          text: "Alla mindre funktioner"
+          text: "/timer, /exit..."
         },
       ],
       infoPropsArray: [
