@@ -20,6 +20,10 @@
                 <p class="mb-8">{{informationProperties.cmdText5}}</p>
                 <h2 class="text-xl font-bold">{{informationProperties.cmdTitle6}}</h2>
                 <p class="mb-8">{{informationProperties.cmdText6}}</p>
+                <h2 class="text-xl font-bold">{{informationProperties.cmdTitle7}}</h2>
+                <p class="mb-8">{{informationProperties.cmdText6}}</p>
+                <h2 class="text-xl font-bold">{{informationProperties.cmdTitle8}}</h2>
+                <p class="mb-8">{{informationProperties.cmdText6}}</p>
             </div>
         </div>
     </div>

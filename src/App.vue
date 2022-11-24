@@ -89,6 +89,10 @@ export default {
           cmdText5: "tömmer kön",
           cmdTitle6: "/resume",
           cmdText6: "startar musiken om den är pausad",
+          cmdTitle7: "/shuffle",
+          cmdText7: "shufflar kön",
+          cmdTitle8: "/lyrics",
+          cmdText8: "söker efter texten till låten du skriver in",
           icon: "fa-solid fa-music",
           title: "Musik",
           id:"music"
